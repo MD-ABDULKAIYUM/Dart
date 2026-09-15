@@ -10,7 +10,7 @@ class BankAccount {
   BankAccount(this.accountHolder, this.accountNumber, this._balance);
 
   // Deposit Method
-  void deposit(double amount) {9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999997
+  void deposit(double amount) {
     if (amount > 0) {
       _balance += amount;
       print("After Deposit: Balance: ${_balance.toStringAsFixed(0)}");
